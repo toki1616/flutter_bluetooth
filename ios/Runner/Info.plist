@@ -45,5 +45,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>このアプリはBluetoothデバイスと通信するためにBluetoothを使用します。</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>このアプリはBluetoothデバイスに接続するためにBluetoothを使用します。</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>BLEデバイスのスキャンに位置情報が必要です。</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>BLEデバイスのスキャンに位置情報が必要です。</string>
 </dict>
 </plist>
