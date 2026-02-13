@@ -8,4 +8,3 @@ class ConnectDevice {
 
   Stream<BleConnectionState> call(String deviceId) => repository.connect(deviceId);
 }
-

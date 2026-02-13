@@ -8,4 +8,3 @@ class ScanDevices {
 
   Stream<List<BleDevice>> call() => repository.scanDevices();
 }
-
